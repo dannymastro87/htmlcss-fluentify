@@ -1,5 +1,163 @@
+/* Global */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+header {
+  height: 550px;
+  background-color: #0c325a;
+  background-image: url("../img/background-header.png");
+  background-size: 1000px;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+main {
+  
+}
+footer {
+  background-color: #d3d3d3;
+}
+
+.clearflix_after {
+  content: '';
+  clear: both;
+  display: table;
+
+}
+.container {
+  width: 100%;
+  padding: 0 20px;
+  min-width: 1400px;
+}
+
+.float-left {
+  float: left;
+}
+
+/* header */
+.col-1 {
+  width: 15%;
+}
+
+.col-2 {
+  width: 45%;
+}
+
+.col-3 {
+  width: 40%;
+}
+
+.logo {
+  margin-top: 15px;
+}
+
+ul {
+  display: inline-block;
+}
+
+ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  line-height: 70px;
+}
+
+.menu-left {
+  display: inline-block;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+.menu-left ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.menu-left ul {
+  list-style: none;
+  display: inline-block;
+}
+
+/* Slider  */
+.jumbotron {
+  margin-left: 50px;
+}
+
+.jumbotron p {
+  text-align: left;
+  color: #ffffff;
+  font-size: 2em;
+}
+
+/* button  */
+.btn {
+  background-color: #7cbb04;
+  padding: 10px;
+  border-radius: 8px;
+  height: 40px;
+  line-height: 20px;
+  font-size: 0.8em;
+}
+
+.btn-large {
+  background-color: #7cbb04;
+  padding: 20px;
+  width: 200px;
+  border-radius: 8px;
+  line-height: 20px;
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+.btn-border {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  height: 40px;
+  line-height: 20px;
+  font-size: 0.8em;
+}
+
+/* layout */
+.col {
+  width:33%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+
+.banner-text {
+  background-color: #d3d3d3;
+  padding: 40px;
+}
+
+.col img{
+  width: 100px;
+}
+
+.box {
+  padding:20px;
+}
+
+.box h3 {
+  color: #7cbb04;
 }
