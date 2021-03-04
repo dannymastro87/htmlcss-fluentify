@@ -255,6 +255,11 @@ img.big {
   margin: 0 auto 30px;
 }
 
+.text-description {
+  height: 80px;
+  line-height: 40px;
+}
+
 .title-plane {
   margin-top: 30px;
 }
