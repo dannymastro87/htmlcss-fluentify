@@ -20,7 +20,7 @@ header {
 }
 
 footer {
-  background-color: #d3d3d3;
+  background-color: #17416b;
   height: 150px;
   line-height: 150px;
 }
@@ -35,6 +35,11 @@ footer {
   width: 80%;
   margin: 0 auto;
   min-width: 1400px;
+}
+
+.gray {
+  background-color: #d3d3d3;
+  height: 150px;
 }
 
 /* Font */
