@@ -318,7 +318,7 @@ i {
 }
 
 .col-4 {
-  width: 33%;
+  width: 33.333%;
 }
 
 .col-6 {
@@ -395,7 +395,19 @@ img.big {
 .text-description {
   height: 80px;
   line-height: 40px;
+  position: relative;
 }
+
+/* .text-description:after {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  width: 20%;
+  height: 1px;
+  display: block;
+  background-color: gray;
+  content:'';
+} */
 
 .title-plane {
   margin-top: 30px;
